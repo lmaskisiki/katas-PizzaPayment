@@ -1,5 +1,4 @@
 function calculatorService() {
-
     let getContributionFor = function ( cost) {
         if (cost >= 5) {
             let twoThirdCost = Number(((cost / 3) * 2).toFixed(2));
